@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./tsconfig.check.json",
+  "extends": "./check.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
     "lib": ["ESNext"]

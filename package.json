@@ -1,6 +1,6 @@
 {
   "name": "@mr-hope/tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modern and strict tsconfig presets for Bundler, Node.js, and Web environments.",
   "keywords": [
     "bundler",
@@ -13,6 +13,9 @@
   ],
   "license": "MIT",
   "author": "Mr.Hope",
+  "repository": {
+    "url": "https://github.com/Mister-Hope/tsconfig"
+  },
   "files": [
     "base.json",
     "bundler.json",
@@ -30,9 +33,6 @@
     "./node.json": "./node.json",
     "./web.json": "./web.json"
   },
-  "repository": {
-    "url": "https://github.com/Mister-Hope/tsconfig"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -40,6 +40,7 @@
     "lint": "oxfmt"
   },
   "devDependencies": {
+    "@mr-hope/tsconfig": "0.0.1",
     "oxfmt": "0.36.0"
   },
   "peerDependencies": {

@@ -12,11 +12,20 @@ importers:
         specifier: '>=5.4.0'
         version: 5.9.3
     devDependencies:
+      '@mr-hope/tsconfig':
+        specifier: 0.0.1
+        version: 0.0.1(typescript@5.9.3)
       oxfmt:
         specifier: 0.36.0
         version: 0.36.0
 
 packages:
+
+  '@mr-hope/tsconfig@0.0.1':
+    resolution: {integrity: sha512-1UQABoNENbTFlKoQe10qVzQq75YtpAbcTqX3xUCoBlvOc7iiQNt41sblP8SNAlpBwOx+amSPRHwkEhaCZiHHfw==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      typescript: '>=5.4.0'
 
   '@oxfmt/binding-android-arm-eabi@0.36.0':
     resolution: {integrity: sha512-Z4yVHJWx/swHHjtr0dXrBZb6LxS+qNz1qdza222mWwPTUK4L790+5i3LTgjx3KYGBzcYpjaiZBw4vOx94dH7MQ==}
@@ -155,6 +164,10 @@ packages:
     hasBin: true
 
 snapshots:
+
+  '@mr-hope/tsconfig@0.0.1(typescript@5.9.3)':
+    dependencies:
+      typescript: 5.9.3
 
   '@oxfmt/binding-android-arm-eabi@0.36.0':
     optional: true

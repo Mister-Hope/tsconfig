@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.bundler.json",
+  "extends": "./bundler.json",
   "compilerOptions": {
     "noEmit": false,
     "emitDeclarationOnly": true,
