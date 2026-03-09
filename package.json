@@ -40,7 +40,7 @@
     "lint": "oxfmt"
   },
   "devDependencies": {
-    "@mr-hope/tsconfig": "0.0.1",
+    "@mr-hope/tsconfig": "0.0.2",
     "oxfmt": "0.36.0"
   },
   "peerDependencies": {
