@@ -8,7 +8,6 @@
     "noFallthroughCasesInSwitch": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "noUncheckedIndexedAccess": true,
 
     "module": "Preserve",
     "resolveJsonModule": true,
