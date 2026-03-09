@@ -13,16 +13,16 @@ importers:
         version: 5.9.3
     devDependencies:
       '@mr-hope/tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1(typescript@5.9.3)
+        specifier: 0.0.2
+        version: 0.0.2(typescript@5.9.3)
       oxfmt:
         specifier: 0.36.0
         version: 0.36.0
 
 packages:
 
-  '@mr-hope/tsconfig@0.0.1':
-    resolution: {integrity: sha512-1UQABoNENbTFlKoQe10qVzQq75YtpAbcTqX3xUCoBlvOc7iiQNt41sblP8SNAlpBwOx+amSPRHwkEhaCZiHHfw==}
+  '@mr-hope/tsconfig@0.0.2':
+    resolution: {integrity: sha512-qhZ91RvrWtpQN7Jo+012Lmk0LzkMs2XmSIaOht2cKuHheRzp3rjek0fdlyyRLvMunNqt960y7iFwfHWLybilTA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       typescript: '>=5.4.0'
@@ -165,7 +165,7 @@ packages:
 
 snapshots:
 
-  '@mr-hope/tsconfig@0.0.1(typescript@5.9.3)':
+  '@mr-hope/tsconfig@0.0.2(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
