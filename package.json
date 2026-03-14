@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@mr-hope/tsconfig": "0.0.1",
-    "oxfmt": "0.36.0"
+    "oxfmt": "0.40.0"
   },
   "peerDependencies": {
     "typescript": ">=5.4.0"
