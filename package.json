@@ -1,6 +1,6 @@
 {
   "name": "@mr-hope/tsconfig",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Modern and strict tsconfig presets for Bundler, Node.js, and Web environments.",
   "keywords": [
     "bundler",

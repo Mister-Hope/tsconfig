@@ -14,8 +14,8 @@
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
 
-    "target": "ES2023",
     "lib": ["ES2023"],
+    "target": "es2023",
     "declaration": true,
     "sourceMap": true,
     "inlineSources": false,

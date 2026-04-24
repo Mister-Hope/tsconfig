@@ -3,6 +3,7 @@
   "extends": "./check.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "lib": ["ESNext"]
+    "lib": ["ESNext"],
+    "target": "esnext"
   }
 }
