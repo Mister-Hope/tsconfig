@@ -45,8 +45,19 @@
   "peerDependencies": {
     "typescript": ">=5.4.0"
   },
-  "engines": {
-    "node": ">=20.0.0"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.8.0",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^22.22.0 || ^24.16.0 || ^26.3.0",
+      "onFail": "error"
+    }
   },
-  "packageManager": "pnpm@10.32.1"
+  "engines": {
+    "node": ">=22"
+  }
 }
