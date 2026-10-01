@@ -1,4 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:js-lib"]
+  "extends": [
+    "config:recommended",
+    "config:js-lib",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "commitMessageAction": "update lockfile",
+    "platformAutomerge": true,
+    "extends": ["group:allNonMajor", "schedule:weekly"]
+  },
+  "minimumReleaseAge": "1 day",
+  "timezone": "Asia/Shanghai"
 }

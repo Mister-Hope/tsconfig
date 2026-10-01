@@ -1,10 +1,13 @@
 configDependencies:
   pacquet: ^0.11.12
 
-enableGlobalVirtualStore: true
+virtualStoreType: global
 
 minimumReleaseAgeExclude:
   - "@oxfmt/*"
   - oxfmt
 
 trustPolicy: no-downgrade
+minimumReleaseAgeExcludePrune: true
+trustPolicyExcludePrune: true
+trustPolicyIgnoreAfter: 720
