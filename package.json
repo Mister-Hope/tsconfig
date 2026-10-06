@@ -40,7 +40,7 @@
     "lint": "oxfmt"
   },
   "devDependencies": {
-    "oxfmt": "0.71.0"
+    "oxfmt": "0.72.0"
   },
   "peerDependencies": {
     "typescript": ">=5.4.0"
