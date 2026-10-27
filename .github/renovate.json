@@ -5,7 +5,8 @@
     "config:js-lib",
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone"
-  ],  "packageRules": [
+  ],
+  "packageRules": [
     {
       "description": "Patch/minor devDependency updates are safe to merge automatically.",
       "automerge": true,
